@@ -1,0 +1,84 @@
+
+.cipher-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.cipher-title {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cipher-textarea,
+.cipher-input,
+.cipher-result {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+textarea {
+    resize: none;
+}
+.cipher-textarea {
+    height: 100px;
+}
+
+.cipher-result {
+    height: 100px;
+    background-color: #eaeaea;
+    cursor: not-allowed;
+}
+
+.cipher-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.cipher-alphabet,
+.cipher-mode {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cipher-alphabet label,
+.cipher-mode label {
+    font-size: 14px;
+    color: #555;
+}
+
+.cipher-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cipher-button:hover {
+    background-color: #0056b3;
+}
+
+.cipher-result-title {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
